@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("table.png");
+    background-size: cover;
+    font-family: "Exo 2", sans-serif;
+    
+}
+body {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: white;
+
+}
+.computer-cards {
+    width: 500px;
+    height: 500px;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+button {
+    background-color: rgb(241, 241, 40);
+    padding:10 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor:pointer;
+    border:none;
+    align-self: stretch;
+}
+div.card-slot{
+    border:1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width:calc(120px * 5/7);
+    display: block;
+
+}
+div.card-slot:nth-of-type(1) {
+    margin-bottom:50px;
+
+}
+img{
+    display: block;
+}
+img.card {
+    width:100%;
+}
+div.top {
+    display: flex;
+    align-self: flex-start;
+    
+    
+}
+
+button:disabled {
+    cursor:not-allowed;
+}
